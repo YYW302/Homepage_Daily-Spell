@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Eczar:wght@500&family=Inknut+Antiqua:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="icon" type="image/x-icon" href="assests/favicon.ico" />
+    <title>Daily Spell</title>
+  </head>
+  <body>
+    <div class="bgcontainer">
+      <img
+        id="bg-img"
+        src="assests/hogwarts.png"
+        alt="background image hogwarts"
+      />
+    </div>
+    <div class="main-container">
+      <div class="grid-container">
+        <!------------ search bar  ------------->
+        <!-- programmablesearchengine.google.com  -->
+        <div class="search-container">
+          <script
+            async
+            src="https://cse.google.com/cse.js?cx=a0dd656645b134532"
+          ></script>
+          <div class="gcse-searchbox-only"></div>
+        </div>
+
+        <!------------ spell section ------------->
+
+        <div class="spell-upper">
+          <p class="spell-title">Daily Spell</p>
+          <p class="spell-content" id="spell-name"></p>
+        </div>
+        <div class="spell-lower">
+          <p class="spell-title" id="effect">Effects</p>
+          <p class="spell-content" id="spell-explain"></p>
+        </div>
+
+        <!------------ calendar section ------------->
+        <div class="calendar-container">
+          <div class="greeting-full">
+            <image
+              class="greeting-icon"
+              src="assests/sun.png"
+              alt="sun icon"
+            ></image>
+            <span class="greeting"></span>
+          </div>
+
+          <p class="time"></p>
+
+          <p class="full-date"></p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="line"></div>
+      <p class="footer-text">Created by Helmer.z</p>
+      <p class="footer-text">
+        Sun and moon icons created by Freepik | Lemon tea icons created by
+        AbtoCreative - Flaticon
+      </p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

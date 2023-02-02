@@ -38,13 +38,16 @@ function getDate() {
 function getGreeting() {
   // hours (0 ~ 23)
   if (hour > 4 && hour < 12) {
-    greetingIcon.src = "assests/sun.png";
+    greetingIcon.innerHTML = `<image class="greeting-icon" src="assests/sun.png" alt="time icon"></image>`;
+    // greetingIcon.src = "assests/sun.png";
     greeting.textContent = `Good morning.`;
   } else if (hour > 12 && hour < 19) {
-    greetingIcon.src = "assests/tea.png";
+    // greetingIcon.src = "assests/tea.png";
+    greetingIcon.innerHTML = `<image class="greeting-icon" src="assests/tea.png" alt="time icon"></image>`;
     greeting.textContent = `Good afternoon.`;
   } else {
-    greetingIcon.src = "assests/moon.png";
+    // greetingIcon.src = "assests/moon.png";
+    greetingIcon.innerHTML = `<image class="greeting-icon" src="assests/moon.png" alt="time icon"></image>`;
     greeting.textContent = `Good evening.`;
   }
 }

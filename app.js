@@ -60,12 +60,12 @@ setInterval(() => {
 let num = Math.random();
 let randomNum = Math.ceil(num * 72);
 const url = `https://harry-potter-api-en.onrender.com/spells/${randomNum}`;
-console.log(url);
+// console.log(url);
 
 async function getApi() {
   const res = await fetch(url);
   const json = await res.json();
-  console.log(json);
+  console.log(res);
 
   spellName.textContent = `"${json.spell}"`;
   spellExplain.textContent = json.use;

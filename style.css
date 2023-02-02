@@ -81,8 +81,8 @@ body {
   font-family: var(--main-font-family);
   font-size: 11.5rem;
   font-weight: 600;
-  margin: 15px 0;
-  line-height: 180px;
+  margin: -2.5rem 0 2rem 0;
+  line-height: 13rem;
 }
 
 .footer-text {

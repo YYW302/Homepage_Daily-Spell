@@ -24,6 +24,3 @@ Live Site URL: https://helmerr302.github.io/Homepage_Daily-Spell/
 - Node.js
 - API
 
-## For the next update
-
-- Improve API call speed

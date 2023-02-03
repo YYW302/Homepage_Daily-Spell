@@ -149,7 +149,7 @@ footer {
 }
 
 .line {
-  margin-top: 12px;
+  margin: 4rem 0 0.6rem 0;
   height: 1px;
   background-image: radial-gradient(#b1b1b1, #b1b1b100);
   width: 10%;
@@ -212,7 +212,7 @@ footer {
   .time {
     margin-top: 0;
     font-size: calc(28vw);
-    line-height: calc(10vh);
+    line-height: calc(12vh);
   }
 
   .spell-title {

@@ -45,7 +45,7 @@ body {
   font-size: var(--text-font-size-s);
   font-family: var(--main-font-family);
   font-weight: 600;
-  margin: 23px 0 0 0;
+  margin: 1.4rem 0 0 0;
   flex-shrink: 0;
 }
 
@@ -56,7 +56,7 @@ body {
   font-weight: 500;
   font-style: italic;
   background-color: #0e1a21;
-  padding: 20px;
+  padding: 1.25rem;
   margin: 0;
   width: calc(35vw);
   border-radius: 5px;
@@ -71,7 +71,7 @@ body {
   font-weight: 500;
   font-style: italic;
   background-color: #0e1a21;
-  padding: 20px;
+  padding: 1.25rem;
   margin: 0;
   width: calc(35vw);
   border-radius: 5px;
@@ -124,7 +124,7 @@ body {
 .search-container {
   grid-area: 1/1/2/2;
   width: 75%;
-  padding-top: 10px;
+  padding-top: 0.625rem;
 }
 
 .spell-upper {
@@ -161,7 +161,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0;
+  margin: 10rem 0 0 0;
 }
 
 .line {
@@ -176,7 +176,7 @@ footer {
 @media only screen and (max-width: 900px) {
   .grid-container {
     grid-template-columns: minmax(0, 1fr);
-    padding: 30px;
+    padding: 1.875rem;
     grid-row-gap: calc(1vh);
   }
   .spell-upper {
@@ -217,7 +217,7 @@ footer {
 
 @media only screen and (max-width: 650px) {
   .grid-container {
-    padding: 25px;
+    padding: 1.5rem;
     grid-row-gap: 0;
   }
 
@@ -232,12 +232,12 @@ footer {
   }
 
   .spell-title {
-    padding-left: 15px;
+    padding-left: 1rem;
   }
 
   .spell-content {
     width: calc(74vw);
-    padding: 14px;
+    padding: 1rem;
     line-height: 2rem;
   }
 

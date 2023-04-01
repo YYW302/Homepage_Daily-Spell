@@ -63,17 +63,17 @@ setInterval(() => {
 //* ------------------------ Fetch spell -------------------------//
 
 // spell id 1 ~ 72
-let num = Math.random();
-let randomNum = Math.ceil(num * 72);
-const url = `https://harry-potter-api-en.onrender.com/spells/${randomNum}`;
-// console.log(url);
+document.addEventListener("DOMContentLoaded", () => {
+  let num = Math.random();
+  let randomNum = Math.ceil(num * 72);
+  const url = `https://harry-potter-api-en.onrender.com/spells/${randomNum}`;
 
-async function getApi() {
-  const res = await fetch(url);
-  const json = await res.json();
-  console.log(res);
+  async function getApi() {
+    const res = await fetch(url);
+    const json = await res.json();
 
-  spellName.textContent = `"${json.spell}"`;
-  spellExplain.textContent = json.use;
-}
-getApi();
+    spellName.textContent = `"${json.spell}"`;
+    spellExplain.textContent = json.use;
+  }
+  getApi();
+});

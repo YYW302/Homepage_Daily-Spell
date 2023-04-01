@@ -64,6 +64,21 @@ body {
   flex-shrink: 0;
 }
 
+.loading-text {
+  color: #2c7c75;
+  font-size: var(--text-font-size-s);
+  font-family: var(--note-font-family);
+  font-weight: 500;
+  font-style: italic;
+  background-color: #0e1a21;
+  padding: 20px;
+  margin: 0;
+  width: calc(35vw);
+  border-radius: 5px;
+  letter-spacing: 2px;
+  flex-shrink: 0;
+}
+
 .greeting,
 .full-date {
   color: var(--text-color-white);

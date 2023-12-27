@@ -14,7 +14,7 @@ This app shows a random spell from Harry Potter series, along with the automatic
 
 ## Live link
 
-Live Site URL: https://helmerr302.github.io/Homepage_Daily-Spell/
+Live Site URL: https://yyw302.github.io/Homepage_Daily-Spell/
 
 ## Tech stacks
 
